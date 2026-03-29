@@ -1,4 +1,6 @@
 fastapi
-uvicorn
-sqlalchemy
-pg8000
+uvicorn[standard]
+sqlalchemy[asyncio]
+google-cloud-alloydb-connector[asyncpg]
+asyncpg
+google-generativeai
